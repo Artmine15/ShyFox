@@ -108,6 +108,10 @@ Styles for new tab
     margin-top: 15% !important;
     height: 50%;
   }
+
+  .wallpaper-attribution{
+    display: none;
+  }
   
   /* settings */
   .icon-settings:hover {background-color: var(--tr-hov-col) !important;}
