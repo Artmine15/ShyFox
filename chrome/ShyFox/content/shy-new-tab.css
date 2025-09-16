@@ -100,34 +100,14 @@ Styles for new tab
   }
   
   @media (height <= 700px) {
-    .search-wrapper {padding: 20px 0 30px !important;}
+    .search-wrapper {padding: 200px 0 30px !important;}
     .outer-wrapper > main {margin-top: 0px !important;}
   }
   
   /* margin to logo when only search is enabled */
   .only-search .logo-and-wordmark {margin-top: 20px !important;}
   
-  /* wallpaper */
-  body{
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-size: cover !important;
-    background-attachment: fixed !important;
-  }
   
-  /* dark wallpaper */
-  :root[lwt-newtab-brighttext] body {background-image: url("../../wallpaper.png") !important;}
-  
-  /* light wallpaper */                                      /* `wallpaper.png` will be used when `-light` one does not exist */
-  :root:not([lwt-newtab-brighttext]) body {background-image: url("../../wallpaper-light.png"), url("../../wallpaper.png") !important;}
-  
-  /* central box */
-  main{
-    margin-top: 15% !important;
-    height: 50%;
-    background-color: var(--tr-col);
-    border-radius: var(--giant-rounding);
-  }
   
   /* settings */
   .icon-settings:hover {background-color: var(--tr-hov-col) !important;}
